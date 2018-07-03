@@ -52,7 +52,7 @@ export function App() {
               category: item.category,
             }))}
           />
-          <div className="col-12 col-md-9 col-xl-8 py-md-3 main-content">
+          <div className="col-12 col-md-9 col-xl-10 py-md-3 main-content">
             {exampleData.map((data: any) => (
               <FnDoc {...data} key={data.name} />
             ))}

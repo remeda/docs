@@ -7,7 +7,7 @@ export function Header() {
       <NavLink className="navbar-brand" to="/">
         Remeda
       </NavLink>
-      <ul className="navbar-nav">
+      <ul className="navbar-nav mr-auto">
         <li className="nav-item ">
           <NavLink className="nav-link" to="/" exact>
             Home
@@ -17,6 +17,13 @@ export function Header() {
           <NavLink className="nav-link" to="/docs" activeClassName="active">
             Documentation
           </NavLink>
+        </li>
+      </ul>
+      <ul className="navbar-nav ">
+        <li className="nav-item ">
+          <a className="nav-link" href="https://github.com/remeda/remeda">
+            Github
+          </a>
         </li>
       </ul>
     </nav>

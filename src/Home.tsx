@@ -18,10 +18,10 @@ export function Home() {
                 src="https://travis-ci.org/remeda/remeda.svg?branch=master"
                 alt="Build Status"
               />
-            </a>
+            </a>{' '}
             <a href="https://www.npmjs.org/package/remeda">
               <img src="https://badge.fury.io/js/remeda.svg" alt="npm module" />
-            </a>
+            </a>{' '}
             <a href="https://david-dm.org/remeda/remeda">
               <img
                 src="https://david-dm.org/remeda/remeda.svg"

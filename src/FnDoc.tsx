@@ -10,6 +10,8 @@ export interface MethodDoc {
   example: string;
   args: JsTagProps[];
   returns: JsTagProps;
+  indexed: boolean;
+  pipeable: boolean;
 }
 
 export interface FnDocProps {
@@ -24,7 +26,19 @@ export function FnDoc(props: FnDocProps) {
     <div className="card mb-3">
       <a id={name} />
       <div className="card-body">
-        <h3 className="card-title">{name}</h3>
+        <h3 className="card-title">
+          {name}{' '}
+          {methods[0].indexed && (
+            <small>
+              <div className=" badge indexed-color">indexed</div>
+            </small>
+          )}{' '}
+          {methods[0].pipeable && (
+            <small>
+              <div className=" badge pipeable-color">pipeable</div>
+            </small>
+          )}
+        </h3>
         <div className="card-text">
           <div dangerouslySetInnerHTML={{ __html: description }} />
           {methods.map((method, i) => {

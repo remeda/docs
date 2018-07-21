@@ -16,6 +16,9 @@
   }
   .badge {
     margin-left: auto;
+    &+.badge {
+      margin-left: 3px;
+    }
   }
 }
 
@@ -45,3 +48,30 @@ body {
   overflow: auto;
 }
 
+.fn-scroll {
+  height: calc(100vh - 56px - 69px);
+  overflow: auto;
+}
+
+.pipeable-color {
+  background: #565695;
+  color: white;
+}
+
+.indexed-color {
+  background: #D49A6A;
+  color: white;
+}
+
+.home {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+  .code-wrapper {
+    margin: 20px -1rem;
+  }
+}
+
+.home-wrapper {
+  height: calc(100vh - 56px);
+  overflow: auto;
+  padding: 30px 0;
+}

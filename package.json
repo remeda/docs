@@ -10,8 +10,11 @@
     "build": "cross-env NODE_ENV=production parcel build index.html --public-url ./lib  --out-file index.html"
   },
   "dependencies": {
+    "@types/react-router-dom": "^4.3.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-syntax-highlighter": "^7.0.4"
   },
   "devDependencies": {

@@ -32,7 +32,7 @@
       },
       {
         "tag": "Data Last",
-        "signature": "R.addProp(obj, prop, value)\n",
+        "signature": "R.addProp(prop, value)(obj)\n",
         "category": "Object",
         "indexed": false,
         "pipeable": false,

@@ -1438,7 +1438,7 @@
   {
     "name": "purry",
     "category": "Function",
-    "description": "<p>Creates a function with <code>data-first</code> and <code>data-last</code> signatures.<br><code>purry</code> is a dynamic function and it&#39;s not type safe. It should be wrapped by a function that have proper typings.<br>Refer to the example below to see usage a correct usage.</p>\n",
+    "description": "<p>Creates a function with <code>data-first</code> and <code>data-last</code> signatures.<br><code>purry</code> is a dynamic function and it&#39;s not type safe. It should be wrapped by a function that have proper typings.<br>Refer to the example below for correct usage.</p>\n",
     "methods": [
       {
         "tag": null,

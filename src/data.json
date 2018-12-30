@@ -1839,7 +1839,7 @@
   {
     "name": "splitWhen",
     "category": "Array",
-    "description": "<p>Splits a given array at an index where the given predicate returns true.</p>\n",
+    "description": "<p>Splits a given array at the first index where the given predicate returns true.</p>\n",
     "methods": [
       {
         "tag": "Data First",
